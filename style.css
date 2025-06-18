@@ -121,6 +121,17 @@ body {
   .section-header {
     flex-direction: column;
     align-items: flex-start;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    animation: fadeInDown 1s ease;
+  }
+
+  .section-header h3.author {
+    margin-top: 0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #cccccc;
   }
 
   .section-number {
